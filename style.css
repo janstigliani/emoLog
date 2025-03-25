@@ -1,10 +1,122 @@
-*{
+/* --------------- all document -------------------- */
+
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-size: 1.5rem;
 }
 
-h1{
+html {
+    background: rgb(61, 38, 69);
+    background: linear-gradient(180deg, rgba(61, 38, 69, 1) 0%, rgba(235, 101, 52, 1) 50%, rgba(61, 38, 69, 1) 100%);
+
+}
+
+main {
+    min-height: 100vh;
+}
+
+h1 {
     font-size: 3rem;
+    text-align: center;
+}
+
+/* --------------- header -------------------- */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+/* .head{
+    background: rgb(240,239,244);
+    background: radial-gradient(circle, #da4167 20%, rgba(240, 239, 244, 0.8) 40%, rgba(131,33,97,1) 100%);
+    border-radius: 50%;
+    border: solid 1px black;
+    width: fit-content;
+    padding: 2%;
+} */
+
+.head-2 {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(235, 101, 52, 0.8) 10%, rgba(131, 33, 97, 0.493) 70%);
+    border-radius: 50%;
+    width: fit-content;
+    padding: 2%;
+    margin: 0.5%;
+}
+
+/* --------------- footer -------------------- */
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
+
+.foot-p {
+    font-size: 0.8rem;
+}
+
+.foot-btn {
+    border-radius: 50%;
+    background-color: #EB6534;
+    width: 70px;
+    height: 70px;
+}
+
+.foot-btn:hover {
+    background-color: #eb653491;
+}
+
+.foot-father {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0.7% 1%;
+    /* background: rgb(240,239,244);
+    background: linear-gradient(180deg, rgba(131,33,97,1) 40%, #da4167 100%); */
+}
+
+/* --------------- main -------------------- */
+
+.father {
+    display: flex;
+    gap: 2%;
+}
+
+.mother {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.ancestor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* --------------- dialog and form -------------------- */
+
+.dialog-add {
+    width: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img {
+    width: 45%;
+    align-self: center;
+    padding: 5%;
+}
+
+label {
+    text-align: center;
+    margin-bottom: 8%;
 }
