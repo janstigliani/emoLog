@@ -101,14 +101,7 @@ footer {
     min-height: 100vh;
 }
 
-/* --------------- dialog and form -------------------- */
-
-.dialog-add {
-    width: 100vh;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
+/* --------------- form -------------------- */
 
 .img {
     width: 45%;

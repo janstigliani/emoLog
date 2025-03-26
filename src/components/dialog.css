@@ -1,0 +1,12 @@
+.dialog-add {
+    width: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mother {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
